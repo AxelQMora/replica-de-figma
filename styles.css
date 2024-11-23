@@ -1,0 +1,105 @@
+body {
+    background-color: #fff7f0;
+}
+
+/* --------------------top-bar------------------- */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+#header-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    width: 1111px;
+    height: 64px;
+}
+
+
+#logo {
+    border: solid 1px black;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    width: 228px;
+    height: 56px;
+    align-content: center;
+    text-align: center;
+}
+
+/* --------------------hero----------------------- */
+
+#hero {
+    justify-items: center;
+}
+
+#h1-hero {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 56px;
+    font-style: bold;
+}
+
+#p-hero {
+    color: #7A746e;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    width: 730px;
+    height: 56px;
+}
+
+/* --------------------solutions----------------------- */
+
+#solutions {
+    display: flex;
+    gap:24px;
+    justify-content: center;
+}
+
+.solutions-inside {
+    width: 354px;
+    height: 364px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-radius: 8px;
+}
+
+.sec-title {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: bold;
+}
+
+
+#sec-1 {
+    background-color:#755CDE ;
+}
+
+#sec-2 {
+    background-color: #EB7565;
+}
+
+#sec-3 {
+    background-color: #61C4B7 ;
+}
+
+
+#img-1 {
+    width: 128px;
+    height: auto;
+}
+
+#img-2 {
+    width: 229.75px;
+    height: auto;
+}
+
+#img-3 {
+    width: 86.66px;
+    height: auto;
+}
