@@ -82,7 +82,6 @@ header {
     font-style: bold;
     grid-area: text;
     color: white;
-    /* I still need to find a way to send this text to the bottom */
     align-self: end;
     padding: 0px;
     margin: 0px;
@@ -106,10 +105,22 @@ section {
 
 #sec-2 {
     background-color: #EB7565;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img img"
+    "text text"
 }
 
 #sec-3 {
     background-color: #61C4B7 ;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 4fr 1fr;
+    grid-template-areas: 
+    "void img"
+    "text text"
 }
 
 img {
@@ -132,3 +143,5 @@ img {
     width: 86.66px;
     height: auto;
 }
+
+
