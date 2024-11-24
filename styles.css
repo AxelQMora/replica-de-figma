@@ -73,9 +73,6 @@ header {
     width: 354px;
     height: 364px;
     padding: 24px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     border-radius: 8px;
 }
 
@@ -83,11 +80,28 @@ header {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
     font-style: bold;
+    grid-area: text;
+    color: white;
+    /* I still need to find a way to send this text to the bottom */
+    align-self: end;
+    padding: 0px;
+    margin: 0px;
 }
 
+section {
+    padding: 24 px;
+}
 
 #sec-1 {
     background-color:#755CDE ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "void img"
+    "void img"
+    "text text"
+    ;
 }
 
 #sec-2 {
@@ -96,6 +110,11 @@ header {
 
 #sec-3 {
     background-color: #61C4B7 ;
+}
+
+img {
+    grid-area: img;
+    justify-self: end;
 }
 
 
