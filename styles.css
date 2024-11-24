@@ -28,10 +28,8 @@ header {
 }
 
 
-#logo {
-    border: solid 1px black;
+.cta {
     border-radius: 100px;
-    background-color: black;
     color: white;
     text-decoration: none;
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -39,6 +37,10 @@ header {
     height: 56px;
     align-content: center;
     text-align: center;
+}
+
+#cta-1 {
+    background-color: black;
 }
 
 /* --------------------hero----------------------- */
@@ -59,6 +61,7 @@ header {
     font-size: 18px;
     width: 730px;
     height: 56px;
+    text-align: center;
 }
 
 /* --------------------solutions----------------------- */
@@ -144,4 +147,39 @@ img {
     height: auto;
 }
 
+/* -------------------about-me-------------------------- */
+
+#photo {
+    width: 445px;
+}
+
+#abt-me {
+    margin-top: 136px;
+    display: flex;
+    justify-content: center;
+}
+
+section > h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    color: black;
+}
+
+#sec-photo {
+    margin-right:125px;
+}
+
+#sec-info {
+    width: 540px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: medium;
+    color: #7A746E;
+}
+
+#cta-2 {
+    background-color: #EB7565;
+    display: block;
+}
 
