@@ -19,22 +19,22 @@ body {
 #header-bar {
     display: flex;
     justify-content: space-between;
-    width: 69.4375rem; /* 1111px = 69.4375 rem */
-    height: 4rem;
-    margin: 2.83rem 0px 0px 0px;
+    width: 1111px; 
+    height: 64px;
+    margin: 34px 0px 0px 0px;
     justify-self: center;
 }
 
 
 .cta {
-    border-radius: 8.33rem; /* 100px = 8.33rem */
+    border-radius: 100px; 
     color: white;
     text-decoration: none;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: bold;
     font-size: 1rem;
-    width: 14.25rem; 
-    height: 3.5rem;
+    width: 228px; 
+    height: 56px;
     align-content: center;
     text-align: center;
 }
@@ -47,7 +47,7 @@ body {
 
 #hero {
     justify-items: center;
-    margin-top: 4.125rem ;
+    margin-top: 66px ;
 }
 
 #h1-hero {
@@ -61,10 +61,10 @@ body {
     color: #7A746e;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 1.125rem; 
-    width: 45rem;
+    width: 720px;
     text-align: center;
-    margin-top: 1.4375rem;
-    margin-bottom: 5rem;
+    margin-top: 23px;
+    margin-bottom: 80px;
 }
 
 /* --------------------solutions----------------------- */
@@ -76,10 +76,10 @@ body {
 }
 
 .solutions-inside {
-    width: 22.125rem;
-    height: 22.75rem;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
+    width: 354px;
+    height: 364px;
+    padding: 24px;
+    border-radius: 8px;
 }
 
 .sec-title {
@@ -94,7 +94,7 @@ body {
 }
 
 section {
-    padding: 15rem;
+    padding: 240px;
 }
 
 #sec-1 {
@@ -153,11 +153,11 @@ img {
 /* -------------------about-me-------------------------- */
 
 #photo {
-    width: 27.8125rem;
+    width: 445px;
 }
 
 #abt-me {
-    margin-top: 7.5556rem;
+    margin-top: 136px;
     display: flex;
     justify-content: center;
 }
@@ -170,12 +170,12 @@ section > h2 {
 }
 
 #sec-photo {
-    margin-right:7.8125rem;
+    margin-right:125px;
     padding: 0px 0px 0px 0px;
 }
 
 #sec-info {
-    width: 33.75rem;
+    width: 540px;
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 1.125rem;
     font-style: medium;
