@@ -8,6 +8,20 @@ body {
     line-height: 1.5;
 }
 
+/* ---------------variables-------------------- */
+
+:root {
+    --clr-background: #fff7f0; 
+    --clr-blue: #61C4B7;
+    --clr-purple: #755CDE; 
+    --clr-salmon: #EB7565;
+    --clr-black: #000000;
+    --clr-gray: #7A746e;
+    --clr-hover-1: #755CDE;
+    --clr_hover-2: #F6A560;
+
+}
+
 /* --------------------top-bar------------------- */
 
 
@@ -37,7 +51,7 @@ body {
 
 .cta {
     border-radius: 100px; 
-    color: white;
+    color: var(--clr-background);
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
@@ -50,7 +64,7 @@ body {
 }
 
 #cta-1 {
-    background-color: black;
+    background-color: var(--clr-black);
     margin: 0px;
 }
 
@@ -73,7 +87,7 @@ body {
 }
 
 #p-hero {
-    color: #7A746e;
+    color: var(--clr-gray);
     font-size: 1.125rem; 
     max-width: 720px;
     text-align: center;
@@ -101,7 +115,7 @@ body {
     font-size: 1.5rem;
     font-style: bold;
     grid-area: text;
-    color: white;
+    color: var(--clr-background);
     align-self: end;
     padding: 0px;
     margin: 0px;
@@ -109,7 +123,7 @@ body {
 
 
 #sec-1 {
-    background-color:#755CDE ;
+    background-color: var(--clr-purple);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -121,7 +135,7 @@ body {
 }
 
 #sec-2 {
-    background-color: #EB7565;
+    background-color: var(--clr-salmon);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -131,7 +145,7 @@ body {
 }
 
 #sec-3 {
-    background-color: #61C4B7 ;
+    background-color: var(--clr-blue);
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 4fr 1fr;
@@ -190,7 +204,7 @@ img {
 h2 {
     font-size: 2.5rem;
     font-style: bold;
-    color: black;
+    color: var(--clr-black);
     margin:0px;
     padding: 0px;
 }
@@ -213,7 +227,7 @@ section{
 
 #sec-info {
     width: 540px;
-    color: #7A746E;
+    color: var(--clr-gray);
     padding: 0px 0px 0px 0px;
 }
 
@@ -226,7 +240,7 @@ section{
 }
 
 #cta-2 {
-    background-color: #EB7565;
+    background-color: var(--clr-salmon);
     display: block;
 }
 
@@ -242,8 +256,8 @@ section{
 #bottom-section {
     display: flex;
     flex-direction: column;
-    background-color: black;
-    color: white;
+    background-color: var(--clr-black);
+    color: var(--clr-background);
     max-width: 690px;
     min-height: 352px;
     justify-self: center;
@@ -285,7 +299,7 @@ section{
 }
 
 #cta-3{
-    background-color: #EB7565;
+    background-color: var(--clr-salmon);
     margin:0px;
     /* flex: none; */
     display: block; /* Callout: I'm not sure this is a good idea */
